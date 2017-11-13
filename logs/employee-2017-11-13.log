@@ -127,3 +127,7 @@
 [2017-11-13 17:38:02.250] [INFO ] [[app]               ] - Intializing router...
 [2017-11-13 17:38:07.137] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
 [2017-11-13 17:38:07.248] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 17:43:16.971] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 17:43:16.975] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 17:43:22.493] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 17:43:22.576] [INFO ] [[dao/db]            ] - Employee table created successful
