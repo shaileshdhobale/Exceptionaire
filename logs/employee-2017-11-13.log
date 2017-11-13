@@ -21,3 +21,109 @@
 [2017-11-13 12:40:02.917] [INFO ] [[app]               ] - Express server listening on port 8000
 [2017-11-13 12:40:02.921] [INFO ] [[app]               ] - Intializing router...
 [2017-11-13 12:40:08.070] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 13:19:06.540] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 13:19:06.544] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 13:19:11.937] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 13:19:12.007] [ERROR] [[dao/db]            ] - Employee table created successful
+[2017-11-13 14:15:00.751] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 14:15:00.755] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 14:15:05.904] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 14:15:05.972] [ERROR] [[dao/db]            ] - Employee table created successful
+[2017-11-13 14:15:32.306] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 14:15:32.310] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 14:15:37.462] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 14:15:37.529] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 14:24:22.500] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 14:24:22.504] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 14:24:27.864] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 14:24:27.928] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 15:00:16.948] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:00:16.951] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:00:22.134] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:00:22.213] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 15:25:21.280] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:25:21.284] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:25:26.928] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:25:29.363] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:25:29.367] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:25:34.560] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:25:34.654] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 15:26:17.375] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:26:17.379] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:26:22.554] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:26:22.644] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 15:27:36.046] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:27:36.050] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:27:41.376] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:27:41.517] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 15:33:31.762] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 15:33:31.768] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 15:33:36.394] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 15:33:36.478] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:19:05.679] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:19:05.686] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:19:10.016] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:19:10.160] [ERROR] [[dao/db]            ] - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    --------------------
+    at Protocol._enqueue (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Connection.query (/home/spdpl10/Exceptionaire/Exceptionaire/node_modules/mysql/lib/Connection.js:208:25)
+    at Object.<anonymous> (/home/spdpl10/Exceptionaire/Exceptionaire/dao/db.js:95:5)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'CREATE TABLE IF NOT EXISTS employee(id int primary key AUTO_INCREMENT, name varchar(100), email varchar(100), mobile char(10)' }
+[2017-11-13 16:20:18.731] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:20:18.735] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:20:23.930] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:20:24.026] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:23:04.972] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:23:04.976] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:23:10.168] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:23:10.258] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:27:26.113] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:27:26.116] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:27:31.782] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:27:31.945] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:50:13.196] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:50:13.208] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:50:17.593] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:50:17.691] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:51:44.940] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:51:44.944] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:51:50.183] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:51:50.281] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 16:53:15.928] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 16:53:15.931] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 16:53:21.209] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 16:53:21.307] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 17:30:38.442] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 17:30:38.448] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 17:30:42.935] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 17:30:43.008] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 17:32:27.336] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 17:32:27.339] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 17:32:32.566] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 17:32:32.659] [INFO ] [[dao/db]            ] - Employee table created successful
+[2017-11-13 17:38:02.244] [INFO ] [[app]               ] - Express server listening on port 8000
+[2017-11-13 17:38:02.250] [INFO ] [[app]               ] - Intializing router...
+[2017-11-13 17:38:07.137] [INFO ] [[dao/db]            ] - Connection to MySql Database Successful!
+[2017-11-13 17:38:07.248] [INFO ] [[dao/db]            ] - Employee table created successful

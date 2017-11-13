@@ -3,12 +3,10 @@
 var constant = function() {
 	this.BAD_REQUEST = "Bad request.";
 	this.INTERNAL_SERVER_ERROR = "Internal Server Error.";
-	this.APPOINTMENT_ADDED_SUCCESS = "Appointment added successfully.";
-	this.APPOINTMENT_ADDED_FAILURE = "Failed to add appointment.";
-	this.APPOINTMENTBOOKED = "APPOINTMENTBOOKED"
-	this.APPOINTMENT_SLOT_UNAVALIABLE = "Appointmet slot is unable.";
-	this.APPOINTMENT_FETCH_SUCCESS = "Appointmets fetched successfully.";
-	this.APPOINTMENT_FETCH_FAILURE = "Failed to fetch Appointment."
+	this.EMPLOYEE_ADDED_SUCCESS = "Employee Added successfully.";
+	this.EMPLOYEE_ADD_FAILURE = "Failed to add new employee.";
+	this.EMPLOYEE_FETCH_SUCCESS = "Employee fetched successfully.";
+    this.EMPLOYEE_FETCH_FAILURE = "Failed to fetch employee details.";
 }
 
 module.exports = new constant();

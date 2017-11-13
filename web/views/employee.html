@@ -7,7 +7,7 @@
                     <label> Employee Name </label>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <input type="text" class="form-control" name="name" ng-pattern="/^[a-zA-Z][a-zA-Z. ]{1,50}$/" ng-model="user.firstName" maxlength="50" required>
+                    <input type="text" class="form-control" name="name" ng-pattern="/^[a-zA-Z][a-zA-Z. ]{1,50}$/" ng-model="user.name" maxlength="50" required>
                     <span style="float:left;color:red" ng-show="userform.submitted&&userform.name.$error.required || userform.name.$touched &&
                         userform.name.$error.required || userform.name.$dirty && userform.name.$error.required">Name is required</span>
                     <span style="float:left;color:red" ng-show="userform.name.$error.pattern">Please enter characters only.</span>
@@ -42,7 +42,7 @@
             </div>
             <div class="row"><br/>
                 <div class="col-sm-8 col-xs-12 text-center">
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary" ng-click="addEmployee()">Submit</button>
                 </div>
             </div>
         </form>
@@ -57,10 +57,10 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>john@example.com</td>
+                    <tr ng-repeat="employee in employeeArray">
+                        <td>{{employee.name}}</td>
+                        <td>{{employee.email}}</td>
+                        <td>{{employee.mobile}}</td>
                     </tr>
                     </tbody>
                 </table>
@@ -69,8 +69,8 @@
         <div class="row">
             <div class="col-sm-8 text-center">
                 <ul class="pager">
-                    <li><a href="#">Previous</a></li>
-                    <li><a href="#">Next</a></li>
+                    <li><a href="#/" ng-click="prevPagination()">Previous</a></li>
+                    <li><a href="#/" ng-click="nextPagination()">Next</a></li>
                 </ul>
             </div>
         </div>

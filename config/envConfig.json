@@ -4,20 +4,10 @@
         "local": {
             "port": 8000,
             "securePort": 443,
-            "dbConnectionString": "mongodb://127.0.0.1/Appointment",
-            "logLevel": "DEBUG"
-        },
-        "dev": {
-            "port": 8000,
-            "securePort": 443,
-            "dbConnectionString": "mongodb://127.0.0.1/Appointment",
-            "logLevel": "DEBUG"
-        },
-        "production": {
-            "port": 8000,
-            "securePort": 443,
-            "dbConnectionString": "mongodb://127.0.0.1/Appointment",
-            "logLevel": "DEBUG"
+            "DBhost": "sql12.freemysqlhosting.net",
+            "user": "sql12204580",
+            "password": "iYA8uF9fQU",
+            "database": "sql12204580"
         }
     }
 }

@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();	
 
-var appointmentController = require('../controllers/appointmentController.js');
+var employeeController = require('../controllers/employeeController.js');
 
 
-router.post('/addAppointment', appointmentController.addAppointment);
-router.get('/allAppointment', appointmentController.fetchAllAppointment);
-
+router.post('/add/employee', employeeController.addEmployee);
+router.get('/employee', employeeController.getEmployee);
 
 module.exports = router;
