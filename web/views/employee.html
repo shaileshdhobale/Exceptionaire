@@ -1,0 +1,78 @@
+<div ng-controller="formCtrl">
+    <div class="container">
+        <form name="userform" novalidate>
+            <div class="row"><br/><br/>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <label> Employee Name </label>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <input type="text" class="form-control" name="name" ng-pattern="/^[a-zA-Z][a-zA-Z. ]{1,50}$/" ng-model="user.firstName" maxlength="50" required>
+                    <span style="float:left;color:red" ng-show="userform.submitted&&userform.name.$error.required || userform.name.$touched &&
+                        userform.name.$error.required || userform.name.$dirty && userform.name.$error.required">Name is required</span>
+                    <span style="float:left;color:red" ng-show="userform.name.$error.pattern">Please enter characters only.</span>
+                </div>
+            </div>
+            <div class="row"><br/>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <label> Email Address </label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" name="email" class="form-control" ng-pattern="/^[_A-za-z0-9]+(\.[_A-za-z0-9]+)*@[A-za-z0-9-]+(\.[A-za-z0-9-]+)*(\.[A-za-z]{2,4})$/"  maxlength="50" ng-model="user.email" required>
+                    <span style="float:left;color:red" ng-show="userform.submitted&&userform.email.$error.required || userform.email.$touched &&
+                        userform.email.$error.required || userform.mobile.$dirty && userform.email.$error.required">Email adress is required</span>
+                    <span style="float:left;color:red" ng-show="userform.email.$error.pattern">Please enter valid email address</span>
+                </div>
+            </div>
+
+            <div class="row"><br/>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <label> Mobile Number </label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="mobile" ng-pattern="/(7|8|9)\d{9}/" ng-model="user.mobile" maxlength="10" required>
+
+                    <span style="float:left;color:red" ng-show="userform.submitted&&userform.mobile.$error.required || userform.mobile.$touched &&
+                        userform.mobile.$error.required || userform.mobile.$dirty && userform.mobile.$error.required">Mobile number is required</span>
+                    <span style="float:left;color:red" ng-show="userform.mobile.$error.pattern">Please enter valid mobile number</span>
+
+                </div>
+            </div>
+            <div class="row"><br/>
+                <div class="col-sm-8 col-xs-12 text-center">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+        <div class="row"><br/>
+            <div class="col-sm-8">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Employee Name</th>
+                        <th>Email Address </th>
+                        <th> Mobile Number </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 text-center">
+                <ul class="pager">
+                    <li><a href="#">Previous</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
